@@ -33,7 +33,9 @@ switch (choice) {
         + "Balance:" + clientBalance);
     } else {
         // Insufficient Amount
-        alert("Insufficient Amount");
+        alert("Insufficient Amount" + newLine
+        + "Balance:" + clientBalance + " " + "withdrawAmount:" + withdrawAmount);
+        break;
     }
 
 }
